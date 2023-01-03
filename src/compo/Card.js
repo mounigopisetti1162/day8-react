@@ -13,9 +13,7 @@ export default function CardComponent({data,id})
     return(
         <>
         <Card
-      style={{
-        width: "18rem",border:"10px", display:"inline-flex",borderradius:"20px"
-    }} className="card"
+       
     >
 <CardBody>
       <img alt="Sample" src={avatar} />

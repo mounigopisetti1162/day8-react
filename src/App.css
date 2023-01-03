@@ -9,6 +9,7 @@
 #root{
   display:flex;
 flex-direction: row;  
+
 }
 
 main{
@@ -20,7 +21,7 @@ main{
 display:flex;
 flex-direction: row;
 flex-wrap: wrap;
-background-color: aquamarine;
+
 }
 .sidebar{
 
@@ -37,9 +38,9 @@ background-color: aquamarine;
   align-items: center;
   padding:20px 15px
 }
-.card{
+.MuiCard-root{
   background-color: aqua;
-  border-radius: 50px;
+  border-radius: 25px !important;
   margin-top: 10px;
   
 
@@ -67,5 +68,14 @@ background-color: aquamarine;
 }
 .routes{
   display: inline;
+
+}
+.home{
+  background-image:url("https://tse1.mm.bing.net/th?id=OIP.M9AsZ7Sm6Qq-LXpY92Tt2AHaEK&pid=Api&rs=1&c=1&qlt=95&w=211&h=118");
+width:100vh;
+height:100vh;
+/* background-repeat: no-repeat; */
+background-size:contain;
+opacity: 0.6;
 
 }
