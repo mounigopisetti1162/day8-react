@@ -15,7 +15,7 @@ export default function Allpeople()
       
        <Button color='success' onClick={()=>navigate('/action')}>CREATE</Button>
        <Container className="container">
-        
+       <Row xs="3">
             {context.people.map((data,index)=>{
                 return(
                     <Col key={data.id}>
@@ -27,7 +27,7 @@ export default function Allpeople()
                 </Col>
                 )
             })}
-          
+          </Row>
             </Container>    
             </>
     )
